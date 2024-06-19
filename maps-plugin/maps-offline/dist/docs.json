@@ -1,0 +1,47 @@
+{
+  "api": {
+    "name": "MapsOfflinePlugin",
+    "slug": "mapsofflineplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "showMap",
+        "signature": "(options: { latitude: number; longitude: number; zoom: number; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ latitude: number; longitude: number; zoom: number; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "showmap"
+      },
+      {
+        "name": "initialize",
+        "signature": "(options: { accessToken: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ accessToken: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "initialize"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface MapsOfflinePlugin {\r\n  showMap(options: {\r\n    latitude: number;\r\n    longitude: number;\r\n    zoom: number;\r\n  }): Promise<void>;\r\n  initialize(options: { accessToken: string }): Promise<void>;\r\n}\r\n"]}

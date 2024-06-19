@@ -1,0 +1,15 @@
+include ':capacitor-android'
+project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials.username = "mapbox"
+            credentials.password = "sk.eyJ1IjoiZG15dHJvMTIzNDEyMyIsImEiOiJjbHhsbDJienkwMXBpMnJzMTZrYWNkYnB2In0.KZI6h5zg0D3yaLuSvWafKQ"
+        }
+    }
+}
